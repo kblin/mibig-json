@@ -18,6 +18,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,9 +37,10 @@
         "compounds": [
             {
                 "chem_acts": [
-                    "Antibacterial",
-                    "Cytotoxic",
-                    "Pigment"
+                    "antibacterial",
+                    "cytotoxic",
+                    "pigment",
+                    "antifungal"
                 ],
                 "chem_moieties": [
                     {
@@ -558,6 +569,29 @@
         "mibig_accession": "BGC0000187",
         "minimal": false,
         "ncbi_tax_id": "222892",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "ADI58643.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "3-amino-4-hydroxybenzoic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C1=CC(=C(C=C1C(=O)O)N)O"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces nodosus subsp. asukaensis",
         "polyketide": {
             "cyclic": false,
