@@ -12,12 +12,13 @@
         {
             "comments": [
                 "Removed gene names of 'No gene ID'",
-                "Removed gene annotation with no information"
+                "Removed gene annotation with no information",
+                "Updated bioactivity data"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
-            "version": "2.1"
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -27,6 +28,9 @@
         ],
         "compounds": [
             {
+                "chem_acts": [
+                    "cytotoxic"
+                ],
                 "compound": "komodoquinone B",
                 "database_id": [
                     "chemspider:8196720"
@@ -231,8 +235,7 @@
             "completeness": "complete",
             "end_coord": 230564,
             "evidence": [
-                "Enzymatic assays",
-                "Sequence-based prediction"
+                "Enzymatic assays"
             ],
             "start_coord": 186402
         },
