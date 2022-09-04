@@ -17,6 +17,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "2.0"
+        },
+        {
+            "comments": [
+                "Updated bioactivity data",
+                "Added NRP substrate specificities"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
+            ],
+            "version": "3.0"
         }
     ],
     "cluster": {
@@ -33,8 +43,58 @@
             "completeness": "Unknown"
         },
         "mibig_accession": "BGC0001298",
-        "minimal": true,
+        "minimal": false,
         "ncbi_tax_id": "67282",
+        "nrp": {
+            "nrps_genes": [
+                {
+                    "gene_id": "AGY30674.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24120331"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "2-amino-3-hydroxycyclopent-2-enone",
+                                        "proteinogenic": false,
+                                        "structure": "C1CC(=O)C(=C1O)N"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "AGY30675.1",
+                    "modules": [
+                        {
+                            "a_substr_spec": {
+                                "evidence": [
+                                    "Structure-based inference",
+                                    "Sequence-based prediction"
+                                ],
+                                "publications": [
+                                    "pubmed:24120331"
+                                ],
+                                "substrates": [
+                                    {
+                                        "name": "5-aminolevulinic acid",
+                                        "proteinogenic": false,
+                                        "structure": "C(CC(=O)O)C(=O)CN"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         "organism_name": "Streptomyces calvus",
         "publications": [
             "pubmed:24120331"
