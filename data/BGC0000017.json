@@ -21,7 +21,7 @@
         {
             "comments": [
                 "Removed ketoreductase stereochemistry annotation from modules without ketoreductases",
-                "Added NRP substrate specificities"
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -88,6 +88,37 @@
                     "product": "Prolyl-ACP oxidase"
                 },
                 {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 11,
+                                "end": 433
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "ATP-PPi exchange assay"
+                                    ],
+                                    "name": "proline",
+                                    "publications": [
+                                        "pubmed:19954230"
+                                    ],
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                },
+                                {
+                                    "evidence": [
+                                        "ATP-PPi exchange assay"
+                                    ],
+                                    "name": "3,4-dehydroproline",
+                                    "publications": [
+                                        "pubmed:19954230"
+                                    ],
+                                    "structure": "C1C=C[C@H](N1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
                     "functions": [
                         {
                             "category": "Precursor biosynthesis",
@@ -129,37 +160,6 @@
         "mibig_accession": "BGC0000017",
         "minimal": false,
         "ncbi_tax_id": "272129",
-        "nrp": {
-            "nrps_genes": [
-                {
-                    "gene_id": "ACR33075.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "ATP-PPi exchange assay"
-                                ],
-                                "publications": [
-                                    "pubmed:19954230"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "proline",
-                                        "proteinogenic": true,
-                                        "structure": "C1C[C@H](NC1)C(=O)O"
-                                    },
-                                    {
-                                        "name": "3,4-dehydroproline",
-                                        "proteinogenic": false,
-                                        "structure": "C1C=C[C@H](N1)C(=O)O"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "organism_name": "[Oscillatoria] sp. PCC 6506",
         "polyketide": {
             "cyclic": true,
