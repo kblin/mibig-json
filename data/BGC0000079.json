@@ -23,7 +23,7 @@
         {
             "comments": [
                 "Updated bioactivity data",
-                "Added NRP substrate specificities"
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -50,6 +50,34 @@
                 "molecular_formula": "C31H43NO4"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 9,
+                                "end": 394
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Homology"
+                                    ],
+                                    "name": "proline",
+                                    "publications": [
+                                        "pubmed:19301315"
+                                    ],
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "ACN69986.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "FJ545274.1",
             "completeness": "Unknown",
@@ -60,32 +88,6 @@
         "mibig_accession": "BGC0000079",
         "minimal": false,
         "ncbi_tax_id": "1890",
-        "nrp": {
-            "nrps_genes": [
-                {
-                    "gene_id": "ACN69986.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Homology"
-                                ],
-                                "publications": [
-                                    "pubmed:19301315"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "proline",
-                                        "proteinogenic": true,
-                                        "structure": "C1C[C@H](NC1)C(=O)O"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "organism_name": "Streptomyces antibioticus",
         "publications": [
             "pubmed:19301315"
