@@ -22,7 +22,7 @@
         {
             "comments": [
                 "Updated bioactivity data",
-                "Added NRP substrate specificities"
+                "Added AMP-binding domain substrate specificities"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -49,6 +49,35 @@
                 "molecular_formula": "C29H37N3O6"
             }
         ],
+        "genes": {
+            "annotations": [
+                {
+                    "domains": [
+                        {
+                            "location": {
+                                "begin": 8,
+                                "end": 400
+                            },
+                            "name": "AMP-binding",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Structure-based inference",
+                                        "Sequence-based prediction"
+                                    ],
+                                    "name": "proline",
+                                    "publications": [
+                                        "pubmed:21173184"
+                                    ],
+                                    "structure": "C1C[C@H](NC1)C(=O)O"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "AEH42484.1"
+                }
+            ]
+        },
         "loci": {
             "accession": "HM452329.1",
             "completeness": "Unknown",
@@ -59,47 +88,6 @@
         "mibig_accession": "BGC0000032",
         "minimal": false,
         "ncbi_tax_id": "1079985",
-        "nrp": {
-            "nrps_genes": [
-                {
-                    "gene_id": "AEH42484.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "proline",
-                                        "proteinogenic": true,
-                                        "structure": "C1C[C@H](NC1)C(=O)O"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference"
-                                ],
-                                "publications": [
-                                    "pubmed:21173184"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "proline",
-                                        "proteinogenic": true,
-                                        "structure": "C1C[C@H](NC1)C(=O)O"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "organism_name": "Streptomyces chartreusis NRRL 3882",
         "publications": [
             "pubmed:21173184"
