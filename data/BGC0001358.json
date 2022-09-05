@@ -20,7 +20,8 @@
         },
         {
             "comments": [
-                "Added NRP substrate specificities"
+                "Added NRP substrate specificities",
+                "Fixed biosynthetic classes"
             ],
             "contributors": [
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
@@ -30,6 +31,7 @@
     ],
     "cluster": {
         "biosyn_class": [
+            "NRP",
             "Polyketide"
         ],
         "compounds": [
