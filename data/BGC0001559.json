@@ -21,13 +21,19 @@
         },
         {
             "comments": [
-                "Cleaned up synonym list",
-                "Corrected source genome and location from crocacin to crocagin",
-                "Added NRP substrate specificities"
+                "Corrected source genome and location from crocacin to crocagin"
             ],
             "contributors": [
-                "AAAAAAAAAAAAAAAAAAAAAAAA",
                 "SJG3CBEHSM6A3I74YXLH6GLA"
+            ],
+            "version": "2.1"
+        },
+        {
+            "comments": [
+                "Cleaned up synonym list"
+            ],
+            "contributors": [
+                "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
         }
@@ -60,44 +66,8 @@
             "start_coord": 3370600
         },
         "mibig_accession": "BGC0001559",
-        "minimal": false,
+        "minimal": true,
         "ncbi_tax_id": "52",
-        "nrp": {
-            "nrps_genes": [
-                {
-                    "gene_id": "AIR74925.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "substrates": [
-                                    {
-                                        "name": "glycine",
-                                        "proteinogenic": true,
-                                        "structure": "NCC(=O)O"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "AIR74926.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "substrates": [
-                                    {
-                                        "name": "glycine",
-                                        "proteinogenic": true,
-                                        "structure": "NCC(=O)O"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
         "organism_name": "Chondromyces crocatus",
         "publications": [
             "pubmed:28544148"
