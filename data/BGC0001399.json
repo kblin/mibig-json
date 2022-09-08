@@ -48,8 +48,8 @@
         "loci": {
             "accession": "BN001302.1",
             "completeness": "Unknown",
-            "end_coord": 3944770,
-            "start_coord": 3931512
+            "end_coord": 3948000,
+            "start_coord": 3924000
         },
         "mibig_accession": "BGC0001399",
         "minimal": false,
