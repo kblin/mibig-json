@@ -58,7 +58,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "BAN91483.1",
+                    "gene_id": "XP_020058100.1",
                     "modules": [
                         {
                             "a_substr_spec": {
