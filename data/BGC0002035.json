@@ -168,7 +168,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "gene3",
+                    "gene_id": "iliA",
                     "modules": [
                         {
                             "a_substr_spec": {
