@@ -48,7 +48,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_078587912.1",
+                    "gene_id": "QTT72101.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -87,7 +87,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_004942674.1",
+                    "gene_id": "QTT72100.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -109,7 +109,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_004942671.1",
+                    "gene_id": "QTT72098.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -131,7 +131,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_004947051.1",
+                    "gene_id": "QTT72092.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -170,7 +170,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_004947046.1",
+                    "gene_id": "QTT72091.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -185,160 +185,6 @@
                                         "name": "cysteine",
                                         "proteinogenic": true,
                                         "structure": "C([C@@H](C(=O)O)N)S"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "QKM21619.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "valine",
-                                        "proteinogenic": true,
-                                        "structure": "CC(C)[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "alanine",
-                                        "proteinogenic": true,
-                                        "structure": "C[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "glutamine",
-                                        "proteinogenic": true,
-                                        "structure": "C(CC(=O)N)[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "gene_id": "QKM21620.1",
-                    "modules": [
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "alanine",
-                                        "proteinogenic": true,
-                                        "structure": "C[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "valine",
-                                        "proteinogenic": true,
-                                        "structure": "CC(C)[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "alanine",
-                                        "proteinogenic": true,
-                                        "structure": "C[C@@H](C(=O)O)N"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "proline",
-                                        "proteinogenic": true,
-                                        "structure": "C1C[C@H](NC1)C(=O)O"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "a_substr_spec": {
-                                "evidence": [
-                                    "Structure-based inference",
-                                    "Sequence-based prediction"
-                                ],
-                                "publications": [
-                                    "pubmed:33382250"
-                                ],
-                                "substrates": [
-                                    {
-                                        "name": "threonine",
-                                        "proteinogenic": true,
-                                        "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
                             }
