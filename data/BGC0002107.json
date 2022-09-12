@@ -39,7 +39,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_010973235.1",
+                    "gene_id": "AAK89731.2",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -62,7 +62,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_010973247.1",
+                    "gene_id": "AAK89720.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -103,7 +103,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_010973248.1",
+                    "gene_id": "AAK89719.2",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -144,7 +144,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_010973240.1",
+                    "gene_id": "AAK89727.1",
                     "modules": [
                         {
                             "a_substr_spec": {
