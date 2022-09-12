@@ -56,7 +56,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_010350605.1",
+                    "gene_id": "CBG70279.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -78,7 +78,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_010350604.1",
+                    "gene_id": "CBG70278.1",
                     "modules": [
                         {
                             "a_substr_spec": {
