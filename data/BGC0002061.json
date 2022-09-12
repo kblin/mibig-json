@@ -66,7 +66,7 @@
                             ]
                         }
                     ],
-                    "id": "WP_148220293.1",
+                    "id": "WP_012408784.1",
                     "product": "acyltransferase domain-containing protein"
                 },
                 {
@@ -378,7 +378,7 @@
             "synthases": [
                 {
                     "genes": [
-                        "WP_148220293.1"
+                        "WP_012408784.1"
                     ],
                     "modules": [
                         {
@@ -392,7 +392,7 @@
                             ],
                             "evidence": "Structure-based inference",
                             "genes": [
-                                "WP_148220293.1"
+                                "WP_012408784.1"
                             ],
                             "module_number": "5"
                         }
