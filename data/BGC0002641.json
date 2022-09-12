@@ -75,7 +75,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_012118250.1",
+                    "gene_id": "ABS75103.1",
                     "modules": [
                         {
                             "a_substr_spec": {
