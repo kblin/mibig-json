@@ -57,7 +57,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_014143997.1",
+                    "gene_id": "SCATT_32630",
                     "modules": [
                         {
                             "a_substr_spec": {
