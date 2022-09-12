@@ -33,7 +33,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "XP_024668732.1",
+                    "gene_id": "PLB34720.1",
                     "modules": [
                         {
                             "a_substr_spec": {
