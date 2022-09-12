@@ -54,7 +54,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_125938383.1",
+                    "gene_id": "AZM50110.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -77,7 +77,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_125938384.1",
+                    "gene_id": "AZM50111.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -136,7 +136,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_125939455.1",
+                    "gene_id": "AZM51139.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -195,7 +195,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_125939456.1",
+                    "gene_id": "AZM51140.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -218,7 +218,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_125939457.1",
+                    "gene_id": "AZM51141.1",
                     "modules": [
                         {
                             "a_substr_spec": {
