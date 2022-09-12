@@ -62,7 +62,7 @@
             "cyclic": false,
             "nrps_genes": [
                 {
-                    "gene_id": "WP_004721331.1",
+                    "gene_id": "EEP98516.1",
                     "modules": [
                         {
                             "a_substr_spec": {
