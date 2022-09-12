@@ -83,7 +83,7 @@
                 {
                     "genes": [
                         "WP_126241644.1",
-                        "WP_164720583.1"
+                        "ELY54_RS14405"
                     ],
                     "modules": [
                         {
@@ -124,7 +124,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "module_number": "4"
                         },
@@ -137,7 +137,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "kr_stereochem": "D-OH",
                             "module_number": "5",
@@ -152,7 +152,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "module_number": "6"
                         },
@@ -165,7 +165,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "kr_stereochem": "D-OH",
                             "module_number": "7"
@@ -178,7 +178,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "kr_stereochem": "D-OH",
                             "module_number": "8"
@@ -191,7 +191,7 @@
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "kr_stereochem": "D-OH",
                             "module_number": "9"
@@ -201,7 +201,7 @@
                                 "Ketosynthase"
                             ],
                             "genes": [
-                                "WP_164720583.1"
+                                "ELY54_RS14405"
                             ],
                             "module_number": "10"
                         }
