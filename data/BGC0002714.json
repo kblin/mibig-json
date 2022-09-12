@@ -42,7 +42,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "WP_011146143.1",
+                    "gene_id": "AXG47007.1",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -64,7 +64,7 @@
                     ]
                 },
                 {
-                    "gene_id": "WP_232507913.1",
+                    "gene_id": "AXG49819.1",
                     "modules": [
                         {
                             "a_substr_spec": {
