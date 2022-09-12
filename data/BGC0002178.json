@@ -45,7 +45,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "FGSG_15673",
+                    "gene_id": "FGSG_11660",
                     "modules": [
                         {
                             "a_substr_spec": {
@@ -68,7 +68,12 @@
                                     }
                                 ]
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "gene_id": "FGSG_11659",
+                    "modules": [
                         {
                             "a_substr_spec": {
                                 "evidence": [
