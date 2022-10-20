@@ -19,6 +19,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Fix core peptide sequence"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -169,7 +178,7 @@
             "precursor_genes": [
                 {
                     "core_sequence": [
-                        "MKMMKRNEEVAESGYDDFDLNIIDSSMFDDESSRPAAPACHTLSSLPCCAN"
+                        "ACHTLSSLPCCAN"
                     ],
                     "gene_id": "NQE92413.1"
                 }
