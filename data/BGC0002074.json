@@ -11,6 +11,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Add precursor gene info"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -107,6 +116,14 @@
             "cyclic": true,
             "peptidases": [
                 "QCY49169.1"
+            ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "GYGNAWDSKNGLF"
+                    ],
+                    "gene_id": "QCY49166.1"
+                }
             ],
             "subclass": "Lassopeptide"
         },
