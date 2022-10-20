@@ -22,7 +22,8 @@
         },
         {
             "comments": [
-                "Fix core peptide sequence"
+                "Fix core peptide sequence",
+                "Fix citation"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5"
@@ -171,7 +172,7 @@
         "ncbi_tax_id": "455432",
         "organism_name": "Nocardia terpenica IFM 0706",
         "publications": [
-            "pubmed:32816977"
+            "pubmed:33991039"
         ],
         "ripp": {
             "cyclic": true,
