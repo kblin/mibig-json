@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Add precursor gene info"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -64,6 +73,14 @@
             "peptidases": [
                 "CAO82088.1",
                 "CAO82081.1"
+            ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "HCATIC"
+                    ],
+                    "gene_id": "mcaE"
+                }
             ],
             "subclass": "Cyanobactin"
         },
