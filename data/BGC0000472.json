@@ -28,6 +28,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Add precursor gene info"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -209,6 +218,16 @@
             "peptidases": [
                 "ACK37888.2",
                 "ADA00395.1"
+            ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "TSQIWGSPVP"
+                    ],
+                    "follower_sequence": "FAGDDAE",
+                    "gene_id": "acyE",
+                    "leader_sequence": "MTKKNIRPQQVAPVERETISTAKDQSGQVQAQ"
+                }
             ],
             "subclass": "Cyanobactin"
         },
