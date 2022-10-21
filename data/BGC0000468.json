@@ -27,6 +27,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Add precursor gene info"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -84,6 +93,16 @@
                 "CCM09452.1",
                 "bmbH",
                 "bmbG"
+            ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "GPVVVFDC"
+                    ],
+                    "follower_sequence": "MTADFLNDDPNNAELSALEMEELESWGAWDGEATS",
+                    "gene_id": "bmbC",
+                    "leader_sequence": "M"
+                }
             ],
             "subclass": "Bottromycin"
         },
