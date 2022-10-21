@@ -29,7 +29,8 @@
         },
         {
             "comments": [
-                "Add additional reference"
+                "Add additional reference",
+                "Update compound information"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5"
@@ -43,16 +44,40 @@
         ],
         "compounds": [
             {
-                "chem_struct": "CC[C@H](C)[C@H]1C2=NC(=CS2)C(=O)N[C@H](C3=NC(=CS3)C(=O)N[C@H](C4=NC(=C(O4)C)C(=O)N1)C)CC5=CN=CN5C",
-                "chem_synonyms": [
-                    "aerucyclamide"
-                ],
-                "compound": "microcyclamide",
+                "chem_struct": "CC[C@H](C)[C@@H]1C2=NC(=CS2)C(=O)N[C@H](C3=N[C@@H]([C@H](O3)C)C(=O)N[C@H](C4=NC(=CO4)C(=O)N1)C(C)C)C",
+                "compound": "aerucyclamide C",
                 "database_id": [
-                    "pubchem:10555282"
+                    "npatlas:NPA002399"
                 ],
-                "mol_mass": 582.18314344,
-                "molecular_formula": "C26H30N8O4S2"
+                "mol_mass": 516.2155,
+                "molecular_formula": "C24H32N6O5S"
+            },
+            {
+                "chem_struct": "C[C@@H]1[C@H]2C(=O)NCC3=NC(=CS3)C(=O)N[C@H](C4=N[C@@H](CS4)C(=O)N[C@H](C(=N2)O1)CC5=CC=CC=C5)CCSC",
+                "compound": "aerucyclamide D",
+                "database_id": [
+                    "npatlas:NPA004788"
+                ],
+                "mol_mass": 586.1491,
+                "molecular_formula": "C26H30N6O4S3"
+            },
+            {
+                "chem_struct": "CC[C@H](C)[C@H]1C2=N[C@@H]([C@H](O2)C)C(=O)NCC3=NC(=CS3)C(=O)N[C@@H](C4=N[C@H](CS4)C(=O)N1)[C@@H](C)CC",
+                "compound": "aerucyclamide A",
+                "database_id": [
+                    "npatlas:NPA006720"
+                ],
+                "mol_mass": 534.2083,
+                "molecular_formula": "C24H34N6O4S2"
+            },
+            {
+                "chem_struct": "CC[C@H](C)[C@H]1C2=N[C@@H]([C@H](O2)C)C(=O)NCC3=NC(=CS3)C(=O)N[C@@H](C4=NC(=CS4)C(=O)N1)[C@@H](C)CC",
+                "compound": "aerucyclamide B",
+                "database_id": [
+                    "npatlas:NPA016056"
+                ],
+                "mol_mass": 532.1926,
+                "molecular_formula": "C24H32N6O4S2"
             }
         ],
         "loci": {
@@ -73,8 +98,20 @@
                 "CAP64342.1",
                 "CAP64335.1"
             ],
+            "precursor_genes": [
+                {
+                    "core_sequence": [
+                        "ATVSIC",
+                        "FTGCMC",
+                        "ITGCIC",
+                        "ITGCIC"
+                    ],
+                    "gene_id": "mcaE"
+                }
+            ],
             "subclass": "Cyanobactin"
         },
         "status": "active"
-    }
+    },
+    "comments": "aerucyclamide A/B come from the ITGCIC core, aerucyclamide C comes from ATVSIC and aerucyclamide D comes from FTGCMC"
 }
