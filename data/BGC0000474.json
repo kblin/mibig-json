@@ -26,6 +26,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Add additional reference"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -55,7 +64,8 @@
         "ncbi_tax_id": "267872",
         "organism_name": "Microcystis aeruginosa PCC 7806",
         "publications": [
-            "pubmed:18245249"
+            "pubmed:18245249",
+            "doi:10.1021/np800409z"
         ],
         "ripp": {
             "cyclic": true,
