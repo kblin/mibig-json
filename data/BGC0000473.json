@@ -30,7 +30,8 @@
         },
         {
             "comments": [
-                "Add precursor gene info"
+                "Add precursor gene info",
+                "Remove chem_alias entry, as that covers different compounds"
             ],
             "contributors": [
                 "3UOU7PODQJXIM6BEPUHHRRA5"
@@ -45,9 +46,6 @@
         "compounds": [
             {
                 "chem_struct": "CC[C@H](C)[C@@H]1NC(=O)C2=C(C)OC(=N2)[C@H](C)NC(=O)C2=CSC(=N2)[C@H](CC2=CN=CN2C)NC(=O)C2=CSC1=N2",
-                "chem_synonyms": [
-                    "aerucyclamide"
-                ],
                 "compound": "microcyclamide",
                 "database_id": [
                     "npatlas:NPA018963",
