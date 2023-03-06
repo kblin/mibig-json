@@ -9,6 +9,16 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.0"
+        },
+        {
+            "comments": [
+                "Fix module 2 substrate (issue #277)",
+                "Number the modules"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -39,6 +49,10 @@
                     "gene_id": "TRX17524.1",
                     "modules": [
                         {
+                            "comments": "contains a CoA-ligase domain loading a fatty acid",
+                            "module_number": "1"
+                        },
+                        {
                             "a_substr_spec": {
                                 "evidence": [
                                     "Structure-based inference"
@@ -48,12 +62,24 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3R-hydroxyaspartic acid",
-                                        "proteinogenic": false,
-                                        "structure": "N[C@@H]([C@H](C(=O)O)O)(C(=O)O)"
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "N[C@@H](CC(=O)O)C(=O)O"
                                     }
                                 ]
-                            }
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "evidence": [
+                                        "Mass spectrometry",
+                                        "NMR",
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "3R-hydroxyaspartic acid",
+                                    "structure": "N[C@@H]([C@H](C(=O)O)O)(C(=O)O)"
+                                }
+                            ],
+                            "module_number": "2"
                         },
                         {
                             "a_substr_spec": {
@@ -70,7 +96,8 @@
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
-                            }
+                            },
+                            "module_number": "3"
                         },
                         {
                             "a_substr_spec": {
@@ -87,7 +114,8 @@
                                         "structure": "C[C@H]([C@@H](C(=O)O)N)O"
                                     }
                                 ]
-                            }
+                            },
+                            "module_number": "4"
                         },
                         {
                             "a_substr_spec": {
@@ -99,12 +127,24 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N5-nitroso-N5-hydroxyornithine",
+                                        "name": "ornithine",
                                         "proteinogenic": false,
-                                        "structure": "O=NN(CCC[C@@H](C(=O)O)N)O"
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
                                     }
                                 ]
-                            }
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "evidence": [
+                                        "Mass spectrometry",
+                                        "NMR",
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "N5-nitroso-N5-hydroxyornithine",
+                                    "structure": "O=NN(CCC[C@@H](C(=O)O)N)O"
+                                }
+                            ],
+                            "module_number": "5"
                         },
                         {
                             "a_substr_spec": {
@@ -121,7 +161,8 @@
                                         "structure": "NCC(=O)O"
                                     }
                                 ]
-                            }
+                            },
+                            "module_number": "6"
                         }
                     ]
                 },
@@ -138,12 +179,24 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "N5-nitroso-N5-hydroxyornithine",
+                                        "name": "ornithine",
                                         "proteinogenic": false,
-                                        "structure": "O=NN(CCC[C@@H](C(=O)O)N)O"
+                                        "structure": "C(C[C@@H](C(=O)O)N)CN"
                                     }
                                 ]
-                            }
+                            },
+                            "integrated_monomers": [
+                                {
+                                    "evidence": [
+                                        "Mass spectrometry",
+                                        "NMR",
+                                        "Structure-based inference"
+                                    ],
+                                    "name": "N5-nitroso-N5-hydroxyornithine",
+                                    "structure": "O=NN(CCC[C@@H](C(=O)O)N)O"
+                                }
+                            ],
+                            "module_number": "7"
                         }
                     ]
                 }
