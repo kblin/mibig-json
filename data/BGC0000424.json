@@ -37,6 +37,15 @@
                 "AAAAAAAAAAAAAAAAAAAAAAAA"
             ],
             "version": "3.1"
+        },
+        {
+            "comments": [
+                "Fix module 1 and 3 substrates (issue #276)"
+            ],
+            "contributors": [
+                "3UOU7PODQJXIM6BEPUHHRRA5"
+            ],
+            "version": "next"
         }
     ],
     "cluster": {
@@ -225,12 +234,18 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3-hydroxyaspartic acid",
-                                        "proteinogenic": false,
-                                        "structure": "N[C@@H](C(C(=O)O)O)(C(=O)O)"
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "N[C@@H](CC(=O)O)C(=O)O"
                                     }
                                 ]
                             },
+                            "integrated_monomers": [
+                                {
+                                    "name": "3-hydroxyaspartic acid",
+                                    "structure": "N[C@@H](C(C(=O)O)O)C(=O)O"
+                                }
+                            ],
                             "active": true,
                             "c_dom_subtype": "LCL",
                             "module_number": "1"
@@ -269,12 +284,18 @@
                                 ],
                                 "substrates": [
                                     {
-                                        "name": "3-hydroxyaspartic acid",
-                                        "proteinogenic": false,
-                                        "structure": "N[C@@H](C(C(=O)O)O)(C(=O)O)"
+                                        "name": "aspartic acid",
+                                        "proteinogenic": true,
+                                        "structure": "N[C@@H](CC(=O)O)C(=O)O"
                                     }
                                 ]
                             },
+                            "integrated_monomers": [
+                                {
+                                    "name": "3-hydroxyaspartic acid",
+                                    "structure": "N[C@@H](C(C(=O)O)O)C(=O)O"
+                                }
+                            ],
                             "active": true,
                             "c_dom_subtype": "LCL",
                             "modification_domains": [
