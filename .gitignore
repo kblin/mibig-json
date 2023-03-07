@@ -1,2 +1,3 @@
 genbanks/*.gbk
+genbanks/*.bz2
 **/__pycache__/*
