@@ -48,7 +48,7 @@
         "nrp": {
             "nrps_genes": [
                 {
-                    "gene_id": "",
+                    "gene_id": "unknown",
                     "modules": [
                         {
                             "a_substr_spec": {
