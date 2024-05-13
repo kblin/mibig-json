@@ -140,6 +140,28 @@
                     "product": "Hypothetical"
                 },
                 {
+                    "domains": [
+                        {
+                            "location": {
+                                "end": 315,
+                                "begin": 72
+                            },
+                            "name": "Adenylation",
+                            "substrates": [
+                                {
+                                    "evidence": [
+                                        "Knock-out studies"
+                                    ],
+                                    "name": "phenazine-1,6-dicarboxylic acid",
+                                    "publications": [
+                                        "doi:10.1016/j.chembiol.2012.07.025"
+                                    ],
+                                    "structure": "C1C=CC2=NC3=C(C(=O)O)C=CC=C3N=C2C=1C(=O)O"
+                                }
+                            ]
+
+                        }
+                    ],
                     "functions": [
                         {
                             "category": "Scaffold biosynthesis",
@@ -411,22 +433,9 @@
             "synthases": [
                 {
                     "genes": [
-                        "AFB35623.1",
                         "AFB35635.1"
                     ],
                     "modules": [
-                        {
-                            "at_specificities": [
-                                "Unknown"
-                            ],
-                            "domains": [
-                                "Adenlyation"
-                            ],
-                            "genes": [
-                                "AFB35623.1"
-                            ],
-                            "module_number": "0"
-                        },
                         {
                             "at_specificities": [
                                 "Malonyl-CoA"
