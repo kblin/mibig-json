@@ -124,8 +124,11 @@
                             },
                             "active": true,
                             "c_dom_subtype": "Starter",
-                            "modification_domains": [
-                                "dehydration"
+                            "integrated_monomers": [
+                                {
+                                    "name": "didehydrobutyrine",
+                                    "structure": "NC(=CC)C(=O)O"
+                                }
                             ],
                             "module_number": "1"
                         },
@@ -363,8 +366,11 @@
                             },
                             "active": true,
                             "c_dom_subtype": "DCL",
-                            "modification_domains": [
-                                "dehydration"
+                            "integrated_monomers": [
+                                {
+                                    "name": "didehydrobutyrine",
+                                    "structure": "NC(=CC)C(=O)O"
+                                }
                             ],
                             "module_number": "13"
                         },
