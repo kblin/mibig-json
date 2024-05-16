@@ -56,7 +56,7 @@
         "nrp": {
             "cyclic": false,
             "release_type": [
-                "Unkown"
+                "Unknown"
             ],
             "subclass": "Cyclic depsipeptide"
         }
