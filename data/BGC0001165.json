@@ -112,7 +112,8 @@
                                         "structure": "C([C@@H](C(=O)O)N)S"
                                     }
                                 ]
-                            }
+                            },
+                            "c_dom_subtype": "Heterocyclization"
                         }
                     ]
                 }
@@ -179,9 +180,6 @@
                                 "Enoylreductase",
                                 "Ketosynthase",
                                 "Acyltransferase",
-                                "Thiolation (ACP/PCP)",
-                                "Condensation",
-                                "Adenlyation",
                                 "Thiolation (ACP/PCP)"
                             ],
                             "genes": [
