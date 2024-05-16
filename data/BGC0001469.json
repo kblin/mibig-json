@@ -325,9 +325,6 @@
                             },
                             "active": true,
                             "c_dom_subtype": "Heterocyclization",
-                            "modification_domains": [
-                                "Heterocyclization"
-                            ],
                             "module_number": "3"
                         },
                         {
@@ -346,9 +343,6 @@
                             },
                             "active": true,
                             "c_dom_subtype": "Heterocyclization",
-                            "modification_domains": [
-                                "Heterocyclization"
-                            ],
                             "module_number": "4"
                         },
                         {
@@ -367,9 +361,6 @@
                             },
                             "active": true,
                             "c_dom_subtype": "Heterocyclization",
-                            "modification_domains": [
-                                "Heterocyclization"
-                            ],
                             "module_number": "5"
                         },
                         {
@@ -388,9 +379,6 @@
                             },
                             "active": true,
                             "c_dom_subtype": "Heterocyclization",
-                            "modification_domains": [
-                                "Heterocyclization"
-                            ],
                             "module_number": "6"
                         }
                     ]
