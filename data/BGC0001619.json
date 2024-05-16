@@ -80,6 +80,7 @@
         "loci": {
             "accession": "KJ159185.1",
             "completeness": "incomplete",
+            "end_coord": 301898,
             "start_coord": 155541
         },
         "mibig_accession": "BGC0001619",
