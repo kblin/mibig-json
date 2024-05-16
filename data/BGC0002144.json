@@ -111,13 +111,6 @@
                     "core_sequence": [
                         "ATCARCDSSSRCGASGKSSGSASSIST"
                     ],
-                    "crosslinks": [
-                        {
-                            "crosslink_type": "None",
-                            "first_AA": -1,
-                            "second_AA": -1
-                        }
-                    ],
                     "gene_id": "RCCGEPOP_RS37510"
                 }
             ],
