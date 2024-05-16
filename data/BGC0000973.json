@@ -185,10 +185,7 @@
                                 ]
                             },
                             "active": true,
-                            "c_dom_subtype": "Unknown",
-                            "modification_domains": [
-                                "Cyclase"
-                            ],
+                            "c_dom_subtype": "Heterocyclization",
                             "module_number": "2"
                         }
                     ]
