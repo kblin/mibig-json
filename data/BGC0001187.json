@@ -136,8 +136,7 @@
                                 "Dehydratase",
                                 "Enoylreductase",
                                 "Ketoreductase",
-                                "Thiolation (ACP/PCP)",
-                                "Condensation"
+                                "Thiolation (ACP/PCP)"
                             ],
                             "evidence": "Structure-based inference",
                             "genes": [
