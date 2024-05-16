@@ -185,7 +185,7 @@
         "ncbi_tax_id": "2795974",
         "organism_name": "Stieleria maiorica",
         "other": {
-            "subclass": "Amino acid-derived"
+            "subclass": "trna-derived"
         },
         "publications": [
             "pubmed:32958819",
