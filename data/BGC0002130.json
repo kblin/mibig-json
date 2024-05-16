@@ -70,9 +70,14 @@
                     ],
                     "crosslinks": [
                         {
-                            "crosslink_type": "None",
-                            "first_AA": -1,
-                            "second_AA": -1
+                            "crosslink_type": "Thioether",
+                            "first_AA": 1,
+                            "second_AA": 5
+                        },
+                        {
+                            "crosslink_type": "Aminovinyl cysteine",
+                            "first_AA": 18,
+                            "second_AA": 22
                         }
                     ],
                     "gene_id": "QKI29070.1"
